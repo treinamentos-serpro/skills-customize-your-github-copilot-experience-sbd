@@ -1,10 +1,10 @@
-# 📘 Tarefa: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-## 🎯 Objective
+## 🎯 Objetivo
 
 Pratique conceitos fundamentais de Python, como listas, condicionais, laços e entrada de dados, ao criar um jogo interativo da forca.
 
-## 📝 Tasks
+## 📝 Tarefas
 
 ### 🛠️ Seleção de Palavra e Estado do Jogo
 
