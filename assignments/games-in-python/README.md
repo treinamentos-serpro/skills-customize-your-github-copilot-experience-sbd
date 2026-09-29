@@ -1,19 +1,47 @@
+# 📘 Tarefa: Jogo da Forca
 
-# 🎮 Desafio: Jogo da Forca
+## 🎯 Objective
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+Pratique conceitos fundamentais de Python, como listas, condicionais, laços e entrada de dados, ao criar um jogo interativo da forca.
 
-## 🎯 O Que Você Vai Construir
+## 📝 Tasks
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+### 🛠️ Seleção de Palavra e Estado do Jogo
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+#### Descrição
+Implemente a lógica inicial do jogo, incluindo uma lista de palavras e uma representação da palavra oculta com espaços ou underscores.
 
-## ✅ Requisitos Obrigatórios
+#### Requisitos
+O programa completo deve:
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+- Definir uma lista com palavras possíveis
+- Escolher uma palavra aleatoriamente
+- Exibir a palavra como `_ _ _` com o mesmo número de letras
+- Manter o estado do jogo para rastrear letras adivinhadas e tentativas restantes
+
+### 🛠️ Entrada do Usuário e Validação
+
+#### Descrição
+Permita que o jogador insira letras e atualize o progresso do jogo com feedback em tempo real.
+
+#### Requisitos
+O programa completo deve:
+
+- Solicitar ao usuário uma letra
+- Verificar se a letra faz parte da palavra
+- Atualizar a visualização da palavra oculta
+- Informar se a tentativa foi correta ou incorreta
+- Evitar erros de entrada duplicados ou valores inválidos
+
+### 🛠️ Vitória e Derrota
+
+#### Descrição
+Finalize o jogo quando a palavra for completamente revelada ou quando as tentativas acabarem.
+
+#### Requisitos
+O programa completo deve:
+
+- Contar tentativas erradas restantes
+- Encerrar com mensagem de vitória quando o jogador adivinha a palavra
+- Encerrar com mensagem de derrota quando as tentativas acabarem
+- Exibir a palavra correta ao final
