@@ -72,6 +72,13 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "binary-search-java",
+      "title": "Busca Binária em Java",
+      "description": "Implement and test iterative binary search in Java, including edge cases and algorithm efficiency",
+      "path": "assignments/binary-search-java",
+      "dueDate": "2026-10-06"
     }
   ]
 }
